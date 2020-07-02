@@ -1,5 +1,3 @@
-
-
 .btn-custom{
     background: #2E86C1;
     border-radius: 30px;
@@ -148,3 +146,39 @@
 .right-content .btn-custom:hover::before {
     transform: scaleY(1);
 }
+
+
+@media(max-width: 1000px) {
+
+    .skills .html::before {
+        width: 90%;
+    }
+
+    .skills .css::before {
+        width: 80%;
+    }
+
+    .skills .javascript::before {
+        width: 40%;
+    }
+
+    .skills .php::before {
+        width: 40%;
+    }
+
+    .skills .laravel::before {
+        width: 65%;
+    }
+
+    .skills .sql::before {
+        width: 65%;
+    }
+
+    .skills .java::before {
+        width: 80%;
+    }
+
+    .skills .office::before {
+        width: 80%;
+    }
+} 
