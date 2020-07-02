@@ -131,6 +131,7 @@ h1 {
 .item:hover {
 	transform: scale(1.05);
 	transition: 0.5s ease;
+	opacity: 0.3;
 }
 
 .item img {
@@ -180,6 +181,10 @@ h1 {
 
 	.my-jumbotron::after {
 		background-image: none;
+	}
+
+	.m-m-acc {
+		margin-bottom: 100px;
 	}
 
 	.m-marg {

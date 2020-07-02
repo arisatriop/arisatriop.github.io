@@ -59,6 +59,9 @@
             <div class="modal-dialog md-cv modal-lg" style="border: 3px solid #154360">
                 <div class="modal-content">
                     <div class="container-fluid" style="background-image: url(assets/images/background.jpg);">
+                        <button type="button" class="close mt-2" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                         <div class="row mt-3" style="color: #154360">
                             <div class="col-3 m-flex-center m-display-1">
                                 <img src="assets/images/21.png" width="100">
@@ -309,7 +312,7 @@
         </div>
 
         <!-- Modal contactMe -->
-        <div class="modal fade" id="contactMe" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        <div class="modal fade mt-5 pt-5" id="contactMe" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog shadow-lg">
                 <div class="modal-content" style="background-image: url(assets/images/background.jpg);">
@@ -334,6 +337,16 @@
                                     aria-controls="contact" aria-selected="false"><img src="assets/images/telegram.png"
                                         width="45"></a>
                             </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="" data-toggle="tab" href="#empat" role="tab"
+                                    aria-controls="contact" aria-selected="false"><img src="assets/images/linkedin.png"
+                                        width="45"></a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="" data-toggle="tab" href="#lima" role="tab"
+                                    aria-controls="contact" aria-selected="false"><img src="assets/images/github.png"
+                                        width="45"></a>
+                            </li>
 
                         </ul>
                         <div class="tab-content text-center mt-3" id="">
@@ -349,6 +362,17 @@
                                 <button class="btn btn-custom" style="font-family: 'Oswald', sans-serif;">+62 852 3303
                                     2828</button>
                             </div>
+                            <div class="tab-pane fade" id="empat" role="tabpanel" aria-labelledby="contact-tab">
+                                <a href="https://www.linkedin.com/in/arisatrio/">
+                                    <button class="btn btn-custom" style="font-family: 'Oswald', sans-serif;">https://www.linkedin.com/in/arisatrio/</button>
+                                </a>
+                            </div>
+                            <div class="tab-pane fade" id="lima" role="tabpanel" aria-labelledby="contact-tab">
+                                <a href="https://github.com/arisatriop">
+                                    <button class="btn btn-custom"
+                                        style="font-family: 'Oswald', sans-serif;">https://github.com/arisatriop</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -356,15 +380,14 @@
         </div>
     </div>
 
-    <div class="accordion mt-n4" id="accordionExample">
+    <div class="accordion mt-n4 m-m-acc" id="accordionExample">
             <div class="card-header" id="headingThree">
-          
-                    <button class="btn btn-custom btn-block collapsed" type="button" data-toggle="collapse"
-                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        SEE MY PROJECT
-                    </button>
-    
+                <button class="btn btn-custom btn-block collapsed" type="button" data-toggle="collapse"
+                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    SEE MY PROJECT
+                </button>
             </div>
+
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                 <div class="container m-marg">
                     <div class="portfolio">
