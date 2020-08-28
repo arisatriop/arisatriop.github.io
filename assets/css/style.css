@@ -66,7 +66,8 @@ h1 {
 }
 
 .div-two img {
-	height: 550px;
+	height: 600px;
+	margin-top: -90px;
 }
 
 .m-flex-center {
@@ -170,6 +171,12 @@ h1 {
 	transition: 0.5s ease;
 }
 
+.m-display-1 img {
+	height: 225px;
+	margin-top: -40px;
+	margin-left: 15px;
+}
+
 
 /* Responsive Breakpoints*/
 
@@ -194,6 +201,12 @@ h1 {
 
 	.m-display-1 {
 		display: none;
+	}
+
+	.m-display-2 img {
+		width: 275px;
+		margin-top: -50px;
+		margin-left: 25px;
 	}
 
 	.my-jumbotron {
@@ -261,10 +274,11 @@ h1 {
 	}
 
 	.div-two img {
-		height: 200px;
+		height: 300px;
 		display: flex;
 		justify-content: flex-start;
-		margin-top: 25px;
+		margin-top: -20px;
+		margin-left: 25px;
 	}
 
 	.item img {
